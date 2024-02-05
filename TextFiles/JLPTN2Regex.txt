@@ -1,0 +1,4 @@
+Random: ^(?!.*[Aa]dj.*)(?!.*[Nn]oun.*)(?!.*[Vv]erb.*).*$
+Only Noun: ^(?!.*=(?!.*[Aa]dj.*)(?=[Nn]oun.*)(?!.*[Vv]erb.*)).*$ -> None
+Only Verb: ^(?!.*=(?!.*[Aa]dj.*)(?!.*[Nn]oun.*)(?=[Vv]erb.*)).*$ -> None
+Noun and Verb: ^(?!.*=(?!.*[Aa]dj.*)(?=[Nn]oun.*)(?=[Vv]erb.*)).*$ -> None
